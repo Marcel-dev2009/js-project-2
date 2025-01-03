@@ -1,0 +1,35 @@
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background: gray;
+   text-align: center;
+}
+button{
+  border: none;
+  margin: 0.5rem 1rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  padding: 1rem 1.5rem;
+  border-radius: 50%;
+  cursor: pointer;
+  background: darkgoldenrod;
+  color: whitesmoke;
+}
+button:hover{
+  background: goldenrod;
+}
+.operators{
+  background: rgba(0, 0, 0, 0.5);
+  filter: opacity(0.5);
+  color: whitesmoke;
+  font-size: 1.2rem;
+  margin: 0.5rem 1.2rem;
+}
+.operators:hover{
+  background: rgba(0, 0, 0, 0.7);
+}
+@media screen and (max-width: 768px){
+   body{
+    overflow-x: hidden;
+   }
+  
+}
