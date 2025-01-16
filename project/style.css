@@ -1,5 +1,6 @@
 
 body{
+   margin-top: 12rem;
   font-family: 'Roboto', sans-serif;
   background: gray;
    text-align: center;
@@ -16,6 +17,15 @@ button{
 }
 button:hover{
   background: goldenrod;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
+}
+.textbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  color: gold;
 }
 .operators{
   background: rgba(0, 0, 0, 0.5);
